@@ -1,0 +1,58 @@
+
+.scrollable {
+    float: left;
+}
+a.browse {
+    background: url("../../../../assets/css/media/img/hori_large.png")  no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 1px;
+    height: 30px;
+    margin: 40px 0px;
+    width: 30px;
+}
+a.right {
+    background-position: 0 -30px;
+    clear: right;
+    margin-right: 0;
+}
+a.right:hover {
+    background-position: -30px -30px;
+}
+a.right:active {
+    background-position: -60px -30px;
+}
+a.left {
+    margin-left: 0;
+}
+a.left:hover {
+    background-position: -30px 0;
+}
+a.left:active {
+    background-position: -60px 0;
+}
+a.up, a.down {
+    background: url("/media/img/scrollable/arrow/vert_large.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: none;
+    margin: 10px 50px;
+}
+a.up:hover {
+    background-position: -30px 0;
+}
+a.up:active {
+    background-position: -60px 0;
+}
+a.down {
+    background-position: 0 -30px;
+}
+a.down:hover {
+    background-position: -30px -30px;
+}
+a.down:active {
+    background-position: -60px -30px;
+}
+/**a.disabled {
+    visibility: hidden !important;
+}
+**/

@@ -1,0 +1,219 @@
+body {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family: Arial;
+	color:#666666;
+	background-color:#ffffff;
+}
+@font-face {
+  font-family:"ChaparralPro";
+  src: url("../fonts/ChaparralPro-Regular.otf")  format("opentype");
+}
+*:focus {
+	inline:none;
+}
+input[type="submit"] { cursor:pointer; padding:2px 10px 0px 10px; background-color:#dfdfdf; border:0; color:#666666; font-family:ChaparralPro; font-size:16px; font-weight:bold;}
+input[type="button"] { cursor:pointer; padding:2px 10px 0px 10px; background-color:#dfdfdf; border:0; color:#666666; font-family:ChaparralPro; font-size:16px; font-weight:bold;}
+
+a { color:#e55643; text-decoration:none; }
+a:hover { color:#717171; text-decoration:none; }
+
+.fieldset { border:solid 1px #cccccc; margin: 0 0 10px 0;}
+.fieldset legend { color:#000000; font-weight:bold; padding:0 10px 0 10px; background-color:#eeeeee;}
+
+.clear { clear:both; }
+div#header { 
+	background-image:url("../images/bg2.png");
+	background-repeat:repeat;
+	/*background-color:#df4b20; */
+	height:45px;
+	width:100%;
+	position:fixed;
+	color:#ffffff;
+	box-shadow:2px 5px 10px #cccccc;
+	-moz-box-shadow:2px 5px 10px #cccccc;
+	-webkit-box-shadow:2px 5px 10px #cccccc;
+	-ms-box-shadow:2px 5px 10px #cccccc;
+	-o-box-shadow:2px 5px 10px #cccccc;
+}
+
+div.header_content {
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+}
+
+div.header_content_left {
+	float:left;
+	width:400px;
+	padding-left:50px;
+	padding-top:18px;
+	font-size:12px;
+	color:#f5a419;
+}
+
+div.header_content_right {
+	float:right;
+	width:180px;
+	padding-top:14px;
+	text-align:right;
+	padding-right:50px;
+	
+}
+
+div.header_content_right a { color:#ffffff; text-decoration:none; }
+div.header_content_right a:hover { color:#d9d4ea; text-decoration:none; }
+div#container_flower {
+	background-image:url('../images/bg_topleft.jpg');
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+
+div#container {
+	margin:0; padding:60px 0 50px 0;
+}
+div.container_cont {
+	margin:0;
+	padding:0;
+	clear:right;
+}
+
+.cc_left { float:left; width:20%; padding-top:10px; border:dashed 1px #cccccc; margin:0 0 0 5px;}
+.cc_right { float:right; width:79%; border:dashed 1px #cccccc; }
+div.container_cont_left {
+	width:20%;
+	color:#ffffff;
+	float:left;
+	padding-top:70px;
+	padding-bottom:10px;
+	height:auto;
+}
+
+.container_cont_left ul { padding:0; list-style-type: none; padding:0; margin:0;}
+.container_cont_left ul li a { display:block; height:26px; text-decoration:none; color:#FFFFFF; text-transform:uppercase; font-size:14px; float:right; text-align:right; padding-right:30px; padding-top:10px; width:216px;}
+.container_cont_left ul li a:hover {display:block; height:26px; text-decoration:none; background-image:url('../images/arrow.png'); float:right; background-repeat:no-repeat; background-position:right; margin-left:20px; color:#aecf3a; text-transform:uppercase; font-size:14px; padding-left:20px; padding-top:10px; width:258px; }
+.container_cont_left ul li.active a {display:block; height:26px; text-decoration:none; background-image:url('../images/arrow.png'); float:right; background-repeat:no-repeat; background-position:right; margin-left:20px; color:#aecf3a; text-transform:uppercase; font-size:14px; padding-left:20px; padding-top:10px; width:258px; }
+
+.news-search { margin:0; padding:0; }
+.ns-quick { width:300px; float:left; }
+.ns-title { width:320px; float:left; }
+.clear { clear:both; }
+.input-search { border:solid 1px #cccccc; padding:3px; font-size:11px; font-family:Verdana; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -ms-border-radius:5px; width:150px;}
+.input-submit2 { background-color:#dddddd; padding:5px 8px 5px 8px; border:0; cursor:pointer; font-size:5px; color:#999999; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -ms-border-radius:5px;}
+label { font-size:11px; }
+.tip {
+	color: #000;
+	background:#cccccc;
+	display:none; /*--Hides by default--*/
+	padding:10px;
+	position:absolute;	z-index:1000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow:0 0 10px #333;
+}
+
+div.container_cont_right {
+	width:auto;
+	float:left;
+	padding-left:30px;
+	padding-right:25px;
+	padding-bottom:276px;
+}
+
+div.cn_head {
+	/*background-image:url("../images/bg_bar.png");
+	background-repeat:repeat-x;*/
+	background-color:#dfdfdf;
+	height:27px;
+	-moz-border-radius-topright:4px;
+	-moz-border-radius-topleft:4px;
+	padding-left:20px;
+	font-weight:bold;
+	padding-top:10px;
+	width:auto;
+}
+
+div.cn_head a { color:#666666; }
+div.cn_head a:hover { color:#f5a419; }
+
+.medium { width:300px; padding:5px;}
+.medium-select { padding:5px;}
+/* Notification */
+.notification {
+	background-color:#eadd00;
+	padding:5px; 
+	width:200px;
+	margin-bottom:10px; 
+	color:#ff0000;
+	font-size:10px;
+	text-align:center;
+	margin-left:30px;
+	border-radius:8px;
+}
+div.cn_cont {
+	border-top:dashed 1px #d2d2d2;
+	color:#717171;
+	padding-top:10px;
+	padding-left:15px;
+	padding-bottom:20px;
+	padding-right:15px;
+}
+
+div.cn_form {
+	width:50%;
+	alignment-adjust:center;
+}
+
+.container_logo {
+	padding-left:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.cl-left { float:left; width:300px; }
+.cl-right { float:right; width:500px; margin-right:50px; height:auto;}
+.refresh { height:auto; }
+div#footer {
+	/*height:39px;
+	background-image:url("../images/bg_footer.png");
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding:10px 0 0 0;
+	position:fixed;
+	bottom:0;
+	width:100%; */
+	background-image:url("../images/bg2.png");
+	background-repeat:repeat;
+	height:40px;
+	color:#f5a419;
+	padding:0px 0 0 0;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	box-shadow:2px -5px 10px #cccccc;
+	-moz-box-shadow:2px -5px 10px #cccccc;
+	-webkit-box-shadow:2px -5px 10px #cccccc;
+	-ms-box-shadow:2px -5px 10px #cccccc;
+	-o-box-shadow:2px -5px 10px #cccccc;
+}
+
+div.footer_content {
+	padding-top:18px;
+	text-align:center;
+	font-size:11px;
+}
+
+div.footer_content_left {
+	padding-top:18px;
+	padding-left:50px;
+	font-size:11px;
+	float:left;
+}
+
+div.footer_content_right {
+	padding-top:18px;
+	padding-right:50px;
+	font-size:12px;
+	float:right;
+}

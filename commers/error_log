@@ -1,0 +1,12 @@
+[15-Apr-2014 04:52:01 America/New_York] PHP Parse error:  syntax error, unexpected T_CLASS, expecting ']' in /home/readboy/public_html/demo/m.php on line 4
+[22-Apr-2014 03:25:31 America/New_York] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/readboy/public_html/demo/cat-map.php on line 79
+[22-Apr-2014 03:26:58 America/New_York] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/readboy/public_html/demo/cat-map.php on line 79
+[22-Apr-2014 03:27:01 America/New_York] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/readboy/public_html/demo/cat-map.php on line 79
+[22-Apr-2014 05:47:55 America/New_York] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/readboy/public_html/demo/act.php on line 77
+[30-Apr-2014 06:00:29 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/readboy/public_html/demo/thankyou.php on line 47
+[30-Apr-2014 06:01:07 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/readboy/public_html/demo/thankyou.php on line 60
+[02-May-2014 05:02:12 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/readboy/public_html/demo/product-detail.php on line 330
+[02-May-2014 05:02:58 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/readboy/public_html/demo/product-detail.php on line 330
+[07-May-2014 04:57:42 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/readboy/public_html/demo/forgotpass.php on line 36
+[07-May-2014 04:58:42 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/readboy/public_html/demo/forgotpass.php on line 36
+[07-May-2014 05:04:37 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/readboy/public_html/demo/forgotpass.php on line 25

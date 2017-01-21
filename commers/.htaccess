@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^halproduk-(.*)\.html$ product.php?halproduk=$1 [L]
+
+Options All -Indexes
+</IfModule>
+

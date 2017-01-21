@@ -1,0 +1,13 @@
+.pagination {list-style:none; height:20px; display:none; position:absolute; margin-top:-25px; margin-left:650px; text-align:center;z-index:10;}
+.pagination li { float:left; cursor:pointer; height:12px; width:12px; background:#bdbdbd; border-radius:8px; margin-right:4px}
+.pagination li:hover {background:#a52424; color:#000}
+li.current {background:#a52424}
+
+/* TinyFader */
+
+#slides {position:relative; margin-left:0px; max-width:100%;width:1008px; height:334px; list-style:none; overflow:auto; z-index:-1px;}
+#slides ul { margin:0; padding:0; }
+#slides li {width:1008px; background-color:#ffffff;list-style: none outside none;}
+#slides li img {width:1008px; height:334px;}
+.fader-slide {opacity:0; position:absolute}
+.fader-fade {opacity:1; -webkit-transition:opacity .4s; -moz-transition:opacity .4s; transition:opacity .4s}

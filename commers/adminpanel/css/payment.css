@@ -1,0 +1,27 @@
+div.cn_headpayment {
+	background-image:url("../images/bg_bar.png");
+	background-repeat:repeat-x;
+	height:27px;
+	-moz-border-radius-topright:4px;
+	-moz-border-radius-topleft:4px;
+	padding-left:20px;
+	font-weight:bold;
+	padding-top:10px;
+	width:auto;
+}
+
+div.cn_contpayment {
+	border-top:dashed 1px #d2d2d2;
+	color:#717171;
+	padding-top:10px;
+	padding-left:15px;
+	padding-bottom:20px;
+	padding-right:15px;
+}
+
+.payment_content { 
+	background-image:url("../images/bg_bottomleft.jpg");
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	padding:10px;
+}

@@ -1,0 +1,30 @@
+
+<style type="text/css">
+table.altrowstable {
+	font-family: arial;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	font-family: verdana;
+	font-size: 11px;
+	
+	padding: 8px;
+	text-align: center;
+}
+table.altrowstable td {
+	font-family: verdana;
+	font-size: 11px;
+	padding: 8px;
+}
+.oddrowcolor{
+	background-color:#ffffff;
+}
+.evenrowcolor{
+	background-color:#e1dccf;
+}
+</style>
+
